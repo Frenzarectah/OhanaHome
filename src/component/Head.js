@@ -2,7 +2,9 @@ import React from "react";
 
 const Head = ()=>{
     return(
-        <h1 className="text-yellow-300">Head</h1>
+        <div className="bg-verona bg-cover w-full h-60">
+                    header
+        </div>
     )
 }
 export default Head
