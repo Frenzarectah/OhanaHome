@@ -5,7 +5,7 @@ const Navbar = ()=>{
     return(
         <nav>
             <div className="w-full h-16 border-y flex items-center">
-                <img src={logo} alt="logo" className="w-20 m-2"/>
+                <img src={logo} alt="logo" className="w-16 m-2"/>
                 <ul className="flex flex-row items-center justify-around w-3/5 border-1 text-[#6EB0FE] roboto">
                     <a className="hover:underline" href="/">Home</a>
                     <a className="hover:underline" href="/">Photos</a>
