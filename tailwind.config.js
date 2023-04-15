@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Kaushan': ['Kaushan Script', 'cursive'],
-      },
+        'Kaushan': ['"Kaushan Script"', 'cursive'],
+        'Roboto' : ['Roboto','sans-serif']
+      },           
     },
   plugins: [],
 }
