@@ -3,7 +3,7 @@ import React from "react";
 const Sector = ()=>{
     return(
         <h1 id="home" className="w-full font-Roboto text-md flex flex-col md:flex-row">
-            <div className="w-full md:w-[75%] m-10">
+            <div className="w-full md:w-[75%] m-5">
                 <p>Ohana home è il luogo ideale se vuoi goderti qualche giorno di relax nella bellissima città storica di Verona.
                 Situato in una zona strategica della città, garantisce zero traffico, tranquillità e la vicinanza alle principali arterie
                 urbane veronesi.</p>
@@ -22,7 +22,7 @@ const Sector = ()=>{
                 <p>Vi aspettiamo!</p>
                 <p className="font-Italianno text-2xl">Ohana Staff</p>
             </div>
-            <iframe title="verona video" className="w-full md-[25%] m-10" src="https://www.youtube-nocookie.com/embed/4_S8_G6SPIg"></iframe>
+            <iframe title="verona video" className="w-full md-[25%] m-5" src="https://www.youtube-nocookie.com/embed/4_S8_G6SPIg"></iframe>
   
         </h1>
     )
