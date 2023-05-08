@@ -566,8 +566,24 @@ video {
   position: fixed;
 }
 
-.m-1 {
-  margin: 0.25rem;
+.absolute {
+  position: absolute;
+}
+
+.left-\[39\%\] {
+  left: 39%;
+}
+
+.right-1 {
+  right: 0.25rem;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
+.top-12 {
+  top: 3rem;
 }
 
 .m-2 {
@@ -627,8 +643,8 @@ video {
   justify-content: space-around;
 }
 
-.justify-self-end {
-  justify-self: end;
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .border-y {
@@ -639,6 +655,27 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-sky-500\/50 {
+  background-color: rgb(14 165 233 / 0.5);
+}
+
+.bg-\[\#6eb0fe\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(110 176 254 / var(--tw-bg-opacity));
+}
+
+.bg-sky-500\/\[\.01\] {
+  background-color: rgb(14 165 233 / .01);
+}
+
+.bg-white\/30 {
+  background-color: rgb(255 255 255 / 0.3);
+}
+
+.bg-white\/50 {
+  background-color: rgb(255 255 255 / 0.5);
 }
 
 .bg-cover {
@@ -655,6 +692,10 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .font-Italianno {
@@ -690,12 +731,8 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:block {
-    display: block;
-  }
-
-  .md\:flex {
-    display: flex;
+  .md\:static {
+    position: static;
   }
 
   .md\:hidden {
@@ -714,8 +751,26 @@ video {
     flex-direction: row;
   }
 
+  .md\:justify-around {
+    justify-content: space-around;
+  }
+
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .md\:bg-none {
+    background-image: none;
+  }
+
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:bg-transparent {
+    background-color: transparent;
   }
 }
