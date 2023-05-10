@@ -586,6 +586,10 @@ video {
   top: 3rem;
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
@@ -623,20 +627,8 @@ video {
   width: 100%;
 }
 
-.w-0 {
-  width: 0px;
-}
-
-.w-\[10\%\] {
-  width: 10%;
-}
-
-.w-\[5\%\] {
-  width: 5%;
-}
-
-.resize {
-  resize: both;
+.w-1\/5 {
+  width: 20%;
 }
 
 .flex-col {
