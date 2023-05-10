@@ -18,7 +18,7 @@ const Navbar = ()=>{
         <nav>
             <div className="w-full fixed bg-white h-16 flex items-center">
                 <img src={logo} alt="logo" className="w-16 m-2"/>
-                <ul className="rounded-lg bg-white/75 md:bg-transparent flex flex-col text-justify absolute top-12 right-0 md:static md:flex-row  md:justify-around w-1/5 md:w-3/5 text-[#6EB0FE] font-Roboto">
+                <ul className="rounded-lg bg-white/75 md:bg-transparent flex flex-col text-justify absolute top-12 right-0 md:static md:flex-row md:justify-around w-1/4 md:w-3/5 text-[#6EB0FE] font-Roboto">
                     <a className={appear?"text-2xl m-3 font-bold md:text-lg":"hidden"}  href="#home">Home</a>
                     <a className={appear?"text-2xl m-3 font-bold md:text-lg":"hidden"} href="#photo">Photos</a>
                     <a className={appear?"text-2xl m-3 font-bold md:text-lg":"hidden"} href="#contact">Contact</a>
