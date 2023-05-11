@@ -1,9 +1,19 @@
 import React from "react";
+import photo1 from '../assets/1.JPG'
+import photo2 from '../assets/2.JPG'
+import photo3 from '../assets/3.JPG'
+import photo4 from '../assets/4.JPG'
+import photo5 from '../assets/5.JPG'
+import photo6 from '../assets/6.JPG'
+import photo7 from '../assets/7.JPG'
+import photo8 from '../assets/8.JPG'
+import photo9 from '../assets/9.JPG'
+import photo10 from '../assets/10.JPG'
 
 const Sector = ()=>{
     return(
-        <main id="home" className="w-full font-Roboto text-md flex flex-col md:flex-row">
-            <div className="w-full md:w-[75%] my-5 p-5">
+        <section className="w-full font-Roboto text-md flex flex-col">
+            <div id="home" className="w-full md:w-[75%] my-5 p-5">
                 <p>Ohana home è il luogo ideale se vuoi goderti qualche giorno di relax nella bellissima città storica di Verona.
                 Situato in una zona strategica della città, garantisce zero traffico, tranquillità e la vicinanza alle principali arterie
                 urbane veronesi.</p>
@@ -22,8 +32,19 @@ const Sector = ()=>{
                 <p>Vi aspettiamo!</p>
                 <p className="font-Italianno text-2xl">Ohana Staff</p>
             </div>
-            <iframe title="mappa" className="w-[25%]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1135.7214626567416!2d10.966019165182663!3d45.419111733240925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781e1d60945dbc3%3A0x6055ec6ef9def2a4!2sVia%20Giuseppe%20Ruffoni%2C%2037136%20Verona%20VR!5e0!3m2!1sit!2sit!4v1681735475935!5m2!1sit!2sit" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </main>
+            <div id="photo" className="w-full my-5 p-5 grid grid-rows-2 grid-cols-2 md:grid-rows-4 md:grid-cols-5 gap-3">
+                <img className ="overflow-hidden w-[300px] h-auto" src={photo1}/>
+                <img className ="overflow-hidden w-[300px] h-auto" src={photo2}/>
+                <img className ="overflow-hidden w-[300px] h-auto" src={photo3}/>
+                <img className ="overflow-hidden w-[300px] h-auto" src={photo4}/>
+                <img className ="overflow-hidden w-[300px] h-auto" src={photo5}/>
+                <img className ="overflow-hidden w-[300px] h-auto" src={photo6}/>
+                <img className ="overflow-hidden w-[300px] h-auto" src={photo7}/>
+                <img className ="overflow-hidden w-[300px] h-auto" src={photo8}/>
+                <img className ="overflow-hidden w-[300px] h-auto" src={photo9}/>
+                <img className ="overflow-hidden w-[300px] h-auto" src={photo10}/>
+            </div>
+        </section>
     )
 }
 export default Sector
