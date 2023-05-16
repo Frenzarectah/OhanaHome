@@ -9,7 +9,10 @@ import photo7 from '../assets/7.JPG'
 import photo8 from '../assets/8.JPG'
 import photo9 from '../assets/9.JPG'
 import photo10 from '../assets/10.JPG'
-
+import photo11 from '../assets/11.jpeg'
+import photo12 from '../assets/12.jpeg'
+import photo13 from '../assets/13.jpeg'
+import photo14 from '../assets/14.jpeg'
 const Sector = ()=>{
     return(
         <section className="w-full font-Roboto text-md flex flex-col">
@@ -33,16 +36,21 @@ const Sector = ()=>{
                 <p className="font-Italianno text-2xl">Ohana Staff</p>
             </div>
             <div id="photo" className="w-full my-5 p-5 grid grid-rows-2 grid-cols-2 md:grid-rows-4 md:grid-cols-5 gap-3">
-                <img className ="overflow-hidden w-[300px] h-auto" src={photo1}/>
-                <img className ="overflow-hidden w-[300px] h-auto" src={photo2}/>
-                <img className ="overflow-hidden w-[300px] h-auto" src={photo3}/>
-                <img className ="overflow-hidden w-[300px] h-auto" src={photo4}/>
-                <img className ="overflow-hidden w-[300px] h-auto" src={photo5}/>
-                <img className ="overflow-hidden w-[300px] h-auto" src={photo6}/>
-                <img className ="overflow-hidden w-[300px] h-auto" src={photo7}/>
-                <img className ="overflow-hidden w-[300px] h-auto" src={photo8}/>
-                <img className ="overflow-hidden w-[300px] h-auto" src={photo9}/>
-                <img className ="overflow-hidden w-[300px] h-auto" src={photo10}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo1}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo2}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo3}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo4}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo5}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo6}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo7}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo8}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo9}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo10}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo11}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo12}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo13}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo14}/>
+
             </div>
         </section>
     )
