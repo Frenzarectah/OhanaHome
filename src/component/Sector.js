@@ -35,7 +35,8 @@ const Sector = ()=>{
                 <p>Vi aspettiamo!</p>
                 <p className="font-Italianno text-2xl">Ohana Staff</p>
             </div>
-            <div id="photo" className="w-full my-5 p-5 grid grid-rows-2 grid-cols-2 md:grid-rows-4 md:grid-cols-5 gap-3">
+            <div id="photo" className="w-full my-5 p-5 grid grid-rows-2 grid-cols-2 md:grid-rows-4 md:grid-cols-4 gap-4">
+                <div className="border-1 border-[#6eb0fe] font-Roboto text-xl text-[#6EB0FE]">Photos</div>
                 <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo1}/>
                 <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo2}/>
                 <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo3}/>
@@ -50,7 +51,6 @@ const Sector = ()=>{
                 <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo12}/>
                 <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo13}/>
                 <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo14}/>
-
             </div>
         </section>
     )
