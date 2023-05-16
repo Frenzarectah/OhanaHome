@@ -37,20 +37,20 @@ const Sector = ()=>{
             </div>
             <div id="photo" className="w-full my-5 p-5 grid grid-rows-2 grid-cols-2 md:grid-rows-4 md:grid-cols-4 gap-4">
                 <div className="border-1 border-[#6eb0fe] font-Roboto text-xl text-[#6EB0FE]">Photos</div>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo1}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo2}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo3}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo4}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo5}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo6}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo7}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo8}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo9}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo10}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo11}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo12}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo13}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[300px] h-[300px]" src={photo14}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo1}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo2}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo3}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo4}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo5}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo6}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo7}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo8}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo9}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo10}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo11}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo12}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo13}/>
+                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo14}/>
             </div>
         </section>
     )
