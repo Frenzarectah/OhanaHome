@@ -52,6 +52,11 @@ const Sector = ()=>{
                 <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo13}/>
                 <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo14}/>
             </div>
+            <div id="contact" className="w-full md:w-[75%] my-5 p-5 flex flex-col">
+                <div className="text-3xl">PER INFO E DETTAGLI E DISPONIBILITA' CONTATTARE:</div>
+                <div className="text-2xl">Giorgia: <a href="tel:+393917118040">3917118040</a></div>
+                <div className="text-2xl">Maria: <a href="tel:+393895319347">3895319347</a></div>
+            </div>
         </section>
     )
 }
