@@ -1,18 +1,6 @@
 import React from "react";
-import photo1 from '../assets/1.JPG'
-import photo2 from '../assets/2.JPG'
-import photo3 from '../assets/3.JPG'
-import photo4 from '../assets/4.JPG'
-import photo5 from '../assets/5.JPG'
-import photo6 from '../assets/6.JPG'
-import photo7 from '../assets/7.JPG'
-import photo8 from '../assets/8.JPG'
-import photo9 from '../assets/9.JPG'
-import photo10 from '../assets/10.JPG'
-import photo11 from '../assets/11.jpeg'
-import photo12 from '../assets/12.jpeg'
-import photo13 from '../assets/13.jpeg'
-import photo14 from '../assets/14.jpeg'
+import Gallery from "./Gallery";
+
 const Sector = ()=>{
     return(
         <section className="w-full font-Roboto text-md flex flex-col">
@@ -35,27 +23,11 @@ const Sector = ()=>{
                 <p>Vi aspettiamo!</p>
                 <p className="font-Italianno text-2xl">Ohana Staff</p>
             </div>
-            <div id="photo" className="w-full my-5 p-5 grid grid-rows-2 grid-cols-2 md:grid-rows-4 md:grid-cols-4 gap-4">
-                <div className="border-1 border-[#6eb0fe] font-Roboto text-xl text-[#6EB0FE]">Photos</div>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo1}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo2}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo3}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo4}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo5}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo6}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo7}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo8}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo9}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo10}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo11}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo12}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo13}/>
-                <img alt="home_photo" className ="object-cover object-center overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[250px]" src={photo14}/>
-            </div>
+            <Gallery />
             <div id="contact" className="w-full md:w-[75%] my-5 p-5 flex flex-col">
-                <div className="text-3xl">PER INFO E DETTAGLI E DISPONIBILITA' CONTATTARE:</div>
-                <div className="text-2xl">Giorgia: <a href="tel:+393917118040">3917118040</a></div>
-                <div className="text-2xl">Maria: <a href="tel:+393895319347">3895319347</a></div>
+                <div className="text-3xl m-3">PER INFO E DETTAGLI E DISPONIBILITA' CONTATTARE:</div>
+                <div className="text-2xl m-3">Giorgia: <a href="tel:+393917118040">3917118040</a></div>
+                <div className="text-2xl m-3">Maria: <a href="tel:+393895319347">3895319347</a></div>
             </div>
         </section>
     )
