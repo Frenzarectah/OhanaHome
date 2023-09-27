@@ -12,7 +12,7 @@ const Sector = ()=>{
                     Potrai godere del comfort di una cucina completamente attrezzata, una camera da letto matrimoniale accogliente e un luminoso soggiorno 
                     con divano letto e letto singolo extra.<br/> Inclusi nel tuo soggiorno 
                     troverai biancheria di alta qualità, riscaldamento, aria condizionata, connessione Wi-Fi ad alta velocità e una smart TV di ultima generazione.<br/>
-                    La posizione strategica dell'Ohana Home ti permette di raggiungere facilmente le principali attrazioni di Verona:<br/>    
+                    La posizione strategica dell'Ohana Home ti permette di raggiungere facilmente le principali attrazioni di Verona:<br/><br/>    
                 <ul>
                     <li><strong>FIERA:</strong> a 3 minuti di auto e a 10 minuti a piedi</li>
                     <li><strong>STAZIONE PORTA NUOVA:</strong> a 6 minuti in auto e 30 minuti a piedi</li>
