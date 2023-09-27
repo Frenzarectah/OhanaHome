@@ -18,6 +18,26 @@
         <title>Ohana Home - Your place in Verona</title>
     </head>
 
-    <body id="app" style="scroll-behavior: smooth;">
+    <body id="app">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    // Aggiungi l'effetto di scorrimento animato ai link interni
+    $("a").on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function() {
+                window.location.hash = hash;
+            });
+        }
+    });
+});
+</script>
     </body>
 </html> 
