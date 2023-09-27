@@ -5,13 +5,13 @@ const Sector = ()=>{
     return(
         <section className="w-full font-Roboto text-md flex flex-col">
             <div id="home" className="w-full md:w-[75%] my-5 p-5">
-                <p>Ohana home è il luogo ideale se vuoi goderti qualche giorno di relax nella bellissima città storica di Verona.
-                Situato in una zona strategica della città, garantisce zero traffico, tranquillità e la vicinanza alle principali arterie
-                urbane veronesi.</p>
+                <p>Immerso nella bellezza di Verona, Ohana Home è il luogo ideale per regalarti un'indimenticabile pausa di relax. La nostra posizione privilegiata ti offre la tranquillità 
+                    che desideri, lontano dal traffico, ma con la comodità di raggiungere facilmente le principali attrazioni della città.</p>
                 <br/>
-                <p>Avrete a disposizione un intero appartamento di circa 70mq con tutti i comfort, tra i quali una cucina abitabile ed
-                utilizzabile, camera da letto matrimoniale, un soggiorno con divano letto + letto singolo, biancheria, riscaldamenti, aria condizionata, wi-fi ad alta velocità e smart TV di ultima generazione.</p>
-                <br/><p>Sarete in grado di raggiungere agevolmente i seguenti luoghi d'interesse:
+                <p>All'Ohana Home ti aspetta un appartamento spazioso di circa 70 mq, dotato di tutti i comfort di cui hai bisogno per un soggiorno perfetto.<br/> 
+                    Potrai godere del comfort di una cucina completamente attrezzata, una camera da letto matrimoniale accogliente e un luminoso soggiorno 
+                    con divano letto e letto singolo extra.<br/> Inclusi nel tuo soggiorno 
+                    troverai biancheria di alta qualità, riscaldamento, aria condizionata, connessione Wi-Fi ad alta velocità e una smart TV di ultima generazione.
                 <ul>
                     <li><strong>FIERA:</strong> a 3 minuti di auto e a 10 minuti a piedi</li>
                     <li><strong>STAZIONE PORTA NUOVA:</strong> a 6 minuti in auto e 30 minuti a piedi</li>
@@ -19,8 +19,8 @@ const Sector = ()=>{
                     <li><strong>AEROPORTO:</strong> a 12 minuti in auto.</li>
                 </ul>
                 </p><br/>
-                <p>Siamo inoltre disponibili per consigli e/o suggerimenti per vivere al meglio questa nostra città!</p>
-                <p>Vi aspettiamo!</p>
+                <p>Il nostro team sarà a tua disposizione per offrirti consigli e suggerimenti su come vivere al meglio la città di Verona, garantendoti un'esperienza autentica e indimenticabile.</p>
+                <p>Scegli Ohana Home per il tuo soggiorno a Verona, Ti aspettiamo!</p>
                 <p className="font-Italianno text-2xl">Ohana Staff</p>
             </div>
             <Gallery />
