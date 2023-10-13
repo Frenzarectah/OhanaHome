@@ -7,8 +7,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
         
-        <link rel="shortcut icon" href="../src/assets/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="../src/assets/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
@@ -21,23 +21,5 @@
     <body id="app">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<script>
-$(document).ready(function() {
-    // Aggiungi l'effetto di scorrimento animato ai link interni
-    $("a").on('click', function(event) {
-        if (this.hash !== "") {
-            event.preventDefault();
-
-            var hash = this.hash;
-
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800, function() {
-                window.location.hash = hash;
-            });
-        }
-    });
-});
-</script>
     </body>
 </html> 
