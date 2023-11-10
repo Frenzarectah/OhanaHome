@@ -27,13 +27,13 @@ const ApiManager = () => {
             <div>
                 <form onSubmit={handleSubmit}>
                     <h2>Inviaci la tua richiesta di prenotazione! </h2>
-                    <input type="text" placeholder='Nome' value={newBook.Nome} onChange={(e) => handleInputChange(e, 'Nome')} />
-                    <input type="text" placeholder='Cognome' value={newBook.Cognome} onChange={(e) => handleInputChange(e, 'Cognome')} />
-                    <input type="text" placeholder='Email' value={newBook.Email} onChange={(e) => handleInputChange(e, 'Email')} />
-                    <input type="text" placeholder='tel' value={newBook.tel} onChange={(e) => handleInputChange(e, 'tel')} />
-                    <input type="date" placeholder='Arrivo' value={newBook.Arrive} onChange={(e) => handleInputChange(e, 'Arrive')} />
-                    <input type="date" placeholder='Partenza' value={newBook.Partenza} onChange={(e) => handleInputChange(e, 'Partenza')} />
-                    <button type='submit'>invia</button>
+                    <input type="text" placeholder='Nome' style={{border:"1px solid black",margin:"2px"}} value={newBook.Nome} onChange={(e) => handleInputChange(e, 'Nome')} />
+                    <input type="text" placeholder='Cognome' style={{border:"1px solid black",margin:"2px"}} value={newBook.Cognome} onChange={(e) => handleInputChange(e, 'Cognome')} />
+                    <input type="text" placeholder='Email' style={{border:"1px solid black",margin:"2px"}} value={newBook.Email} onChange={(e) => handleInputChange(e, 'Email')} />
+                    <input type="text" placeholder='tel' style={{border:"1px solid black",margin:"2px"}} value={newBook.tel} onChange={(e) => handleInputChange(e, 'tel')} />
+                    <input type="date" placeholder='Arrivo' style={{border:"1px solid black",margin:"2px"}} value={newBook.Arrive} onChange={(e) => handleInputChange(e, 'Arrive')} />
+                    <input type="date" placeholder='Partenza' style={{border:"1px solid black",margin:"2px"}} value={newBook.Partenza} onChange={(e) => handleInputChange(e, 'Partenza')} />
+                    <button type='submit' style={{backgroundColor: "green",padding:"2px"}}>invia</button>
                 </form>
             </div>
         );
