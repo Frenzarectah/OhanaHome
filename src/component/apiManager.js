@@ -30,9 +30,9 @@ const ApiManager = () => {
                     <input type="text" placeholder='Nome' style={{border:"1px solid black",margin:"2px"}} value={newBook.Nome} onChange={(e) => handleInputChange(e, 'Nome')} />
                     <input type="text" placeholder='Cognome' style={{border:"1px solid black",margin:"2px"}} value={newBook.Cognome} onChange={(e) => handleInputChange(e, 'Cognome')} />
                     <input type="text" placeholder='Email' style={{border:"1px solid black",margin:"2px"}} value={newBook.Email} onChange={(e) => handleInputChange(e, 'Email')} />
-                    <input type="text" placeholder='tel' style={{border:"1px solid black",margin:"2px"}} value={newBook.tel} onChange={(e) => handleInputChange(e, 'tel')} />
-                    <input type="date" placeholder='Arrivo' style={{border:"1px solid black",margin:"2px"}} value={newBook.Arrive} onChange={(e) => handleInputChange(e, 'Arrive')} />
-                    <input type="date" placeholder='Partenza' style={{border:"1px solid black",margin:"2px"}} value={newBook.Partenza} onChange={(e) => handleInputChange(e, 'Partenza')} />
+                    <input type="text" placeholder='tel' style={{border:"1px solid black",margin:"2px"}} value={newBook.tel} onChange={(e) => handleInputChange(e, 'tel')} /><br/>
+                    Data Arrivo:<input type="date" placeholder='Arrivo' style={{border:"1px solid black",margin:"2px"}} value={newBook.Arrive} onChange={(e) => handleInputChange(e, 'Arrive')} />
+                    Data Partenza:<input type="date" placeholder='Partenza' style={{border:"1px solid black",margin:"2px"}} value={newBook.Partenza} onChange={(e) => handleInputChange(e, 'Partenza')} />
                     <button type='submit' style={{backgroundColor: "green",padding:"2px"}}>invia</button>
                 </form>
             </div>
