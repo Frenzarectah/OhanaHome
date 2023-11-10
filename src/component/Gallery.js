@@ -2,9 +2,9 @@ import React from "react";
 import './head.css';
 import photos from '../store.js';
 
-const photosList = photos.map((item)=>{
+const photosList = photos.map((item,idx)=>{
     return(
-        <img alt={item.alt} className={item.classes} src={item.url}/>
+        <img key={idx} alt={item.alt} className={item.classes} src={item.url}/>
     );
 });
    
