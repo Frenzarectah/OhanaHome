@@ -5,6 +5,7 @@ import ApiManager from "./apiManager";
 
 const Sector = ()=>{
     return(
+        <>
         <section className="w-full font-Roboto text-md flex flex-col">
             <div id="home" className="w-full md:w-[75%] my-5 p-5">
                 <p>Immerso nella bellezza di Verona, Ohana Home è il luogo ideale per regalarti un'indimenticabile pausa di relax. La nostra posizione privilegiata ti offre la tranquillità 
@@ -27,15 +28,9 @@ const Sector = ()=>{
                 <p className="font-Italianno text-2xl">Ohana Staff</p>
             </div>
             <Gallery />
-            <div id="contact" className="w-full md:w-[75%] my-5 p-5 flex flex-col">
-                <div className="text-3xl m-3">PER INFO E DETTAGLI E DISPONIBILITA' CONTATTARE:</div>
-                <div className="text-2xl m-3">Giorgia: <a href="tel:+393917118040">3917118040</a></div>
-                <div className="text-2xl m-3">Maria: <a href="tel:+393895319347">3895319347</a></div>
-            </div>
-            <div id="book" className="w-full md:w-[75%] my-5 p-5 flex flex-col">
-                <ApiManager/>
-            </div>
         </section>
+        <ApiManager/>
+    </>
     )
 }
 export default Sector

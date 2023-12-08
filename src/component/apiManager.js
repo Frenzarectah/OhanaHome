@@ -1,4 +1,5 @@
 import React, {useState } from 'react';
+import '../../src/index.css';
 import axios from 'axios';
 
 const ApiManager = () => {
@@ -24,9 +25,9 @@ const ApiManager = () => {
             }
 
         return (
-            <div>
-                <form onSubmit={handleSubmit}>
-                    <h2>Inviaci la tua richiesta di prenotazione! </h2>
+            <div className="w-full font-Roboto text-md flex flex-col my-5 p-5">
+                <form className="w-full" onSubmit={handleSubmit}>
+                    <p className="flex justify-center">Inviaci la tua richiesta di prenotazione! </p>
                     <input type="text" placeholder='Nome' style={{border:"1px solid black",margin:"2px"}} value={newBook.Nome} onChange={(e) => handleInputChange(e, 'Nome')} />
                     <input type="text" placeholder='Cognome' style={{border:"1px solid black",margin:"2px"}} value={newBook.Cognome} onChange={(e) => handleInputChange(e, 'Cognome')} />
                     <input type="text" placeholder='Email' style={{border:"1px solid black",margin:"2px"}} value={newBook.Email} onChange={(e) => handleInputChange(e, 'Email')} />
